@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gargi Dwivedi</title>
+	<link rel="stylesheet" type="text/css" href="./Styles/stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+	<link 
+		rel="preconnect" href="https://fonts.googleapis.com">
+	<link 
+		rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link 
+		href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&family=Scheherazade+New:wght@400;700&family=Yaldevi:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="hamburger-menu" onclick='showmenu()'>
+			<div class="line line-1"></div>
+			<div class="line line-2"></div>
+			<div class="line line-3"></div>
+		</div>
+		<header class="header" id="homeid">
+			<div class="img-wrapper">
+				<img src="Images/Gargi1.jpeg">
+			</div>
+			<div class="DT">Date/Time: <span id="datetime"></span></div>
+			<div class="banner">
+				<h1>Gargi Dwivedi</h1>
+				<p>Those who wish to sing, always find a song.</p>
+				<!-- <button>Know More!</button> -->
+			</div>
+		</header>
+
+		<section class="sidebar">
+			<ul class="menu">
+				<li class="menu-item">
+					<a href="#homeid" class="menu-link" data-content="Home" onclick="showmenu()">Home</a>
+				</li>
+				<li class="menu-item">
+					<a href="#aboutid" class="menu-link" data-content="About Me" onclick="showmenu()">About Me</a>
+				</li>
+				<li class="menu-item">
+					<a href="#projectid" class="menu-link" data-content="Projects" onclick="showmenu()">Projects</a>
+				</li>
+				<li class="menu-item">
+					<a href="#eduid" class="menu-link" data-content="Education" onclick="showmenu()">Education</a>
+				</li>
+				<li class="menu-item">
+					<a href="#contactinfo" class="menu-link" data-content="Contact" onclick="showmenu()">Contact</a>
+				</li>
+			</ul>
+			<div class="social-media">
+				<!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+				<a href="#"><i class="fab fa-linkedin"></i></a>
+				<a href="https://github.com/dwivedigargi"><i class="fab fa-github"></i></a>
+			</div>
+		</section>
+
+		<section class="AboutMe" id="aboutid">
+			<div class="a-container">
+				<div class="lefts">
+					<div class="about-picture">
+						<img src="Images/Aboutimg.jpeg" alt="My Picture">
+					</div>
+				</div>		
+				<div class="rights">
+					<h1 class="About-Title">About Me</h1>
+					<div class="aboutline"></div>
+					<p>"Since gaining conscience, I’ve been passionate about two things: computers and music. Being taught Logo in elementary school to perform the simplest of tasks like drawing circles, to learning Python during my undergraduate to apply complex machine learning algorithms, has only resulted in an <span style="font-size: 2.5rem">O(2<sup>n</sup>)</span> increase in my fascination with these machines. Returning from school, writing basic codes like printing diamonds, creating magic squares and methodically reviewing them with my father was a regular activity. Finding errors and fixing them remain events of ultimate satisfaction to me. These early incidents eventually lead me to pursue my senior secondary and undergraduate degrees with Computers as major."</p>
+					<button><a href="https://drive.google.com/file/d/1KB4_THd95vevxEDlwDSulDPpwcW_DtGS/view?usp=drivesdk">View Resume</a></button>
+				</div>		
+			</div>
+		</section>
+
+		<section class="Projects" id="projectid">
+			<div class="pro-container">
+			<div class="pro-heading">Projects</div>
+			<div class="proline"></div>
+			<div class="project-tab" onclick="showtable()">
+				<table>
+		 			<tr><th class="firstcol">SNo</th><th colspan="2">Project Name and Description</th></tr>
+  					<tr class="collapse pehli"><td class="firstcol">1.</td><td>Depression Detection Application</td><td>Mobile Based Gaming Application based on Unity 3D.</td></tr>
+  					<tr class="collapse"><td class="firstcol">2.</td><td>Design of Macroprocessor</td><td>Design of Assembler Macroprocessor in C++.</td></tr>
+  					<tr class="collapse"><td class="firstcol">3.</td><<td>Change detection</td><td>Using k-means clustering and spectral rationing.</td></tr>
+  					<tr class="collapse"><td class="firstcol">4.</td><<td>Hangman: The Game</td><td>Country names version of Traditional Hangman in C++.</td></tr>
+				</table>
+			</div>
+			</div>
+		</section>
+
+		<section class="Education" id="eduid">
+			<div class="big-container">
+			<div class="edu-heading"><h1>Educational Details</h1></div>
+			<div class="edu-line"></div>
+			<div class="e-container">
+				<div class="firstcard card" onclick="location.href='https://www.mpvm.edu.in/';">
+					<div class="eduinfo">
+						<h1>Ganga Gurukulam</h1>
+						<h2>Secondary</h2>
+					</div>
+					<div class="img-wrap"><img src="Images/MPVMGG.jpg" alt="MPVM"></div>
+					<!-- <button><a href="https://www.mpvm.edu.in/">Visit</a></button> -->
+				</div>
+				<div class="secondcard card" onclick="location.href='http://www.banasthali.org/banasthali/wcms/en/home/';">
+					<div class="eduinfo">
+						<h1>Banasthali Vidyapith</h1>
+						<h2>Under-Graduation</h2>
+					</div>
+					<div class="img-wrap"><img src="Images/banasthali.jpeg" alt="UG"></div>
+					<!-- <button><a href="https://www.banasthali.org/">Visit</a></button> -->
+				</div>
+				<div class="thirdcard card" onclick="location.href='https://www.iiit.ac.in/';">
+					<div class="eduinfo">
+						<h1>IIIT Hyderabad</h1>
+						<h2>Post Graduation</h2>
+					</div>
+					<div class="img-wrap"><img src="Images/iiith.jpg" alt="PG"></div>
+					<!-- <button><a href="https://www.iiit.ac.in/">Visit</a></button> -->
+				</div>
+			</div>
+		</div>
+		</section>
+
+		<footer id="contactinfo">
+			<div class="fcontainer">
+				<div class="f-img-wrapper">
+					<img src="Images/Gargi2.jpeg">
+				</div>
+				<div class="text-block">
+					<div class="contact">
+						<div class="address cont"><h2>Address</h2>
+							<h6>153 Allenganj, Allahabad</h6></div>
+						<div class="email cont"><h2>Email</h2>
+							<h6>dwivedigargi@gmail.com</h6></div>
+						<div class="phone cont"><h2>Phone</h2>
+							<h6>8299859589</h6></div>
+					</div>
+					<p>Copyright &copy 2021 Gargi Dwivedi. All rights reserved</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="./Scripts/js.js"></script>
+</body>
+</html>
