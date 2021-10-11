@@ -736,4 +736,12 @@ tr.collapse {
 	.line {
 	height: 1rem;
 	}
+
+	.menu-link::before {
+	content: '';
+	position: absolute;
+	top: -66.05%;
+	left: 0;
+	width: 0;	
+	}
 }
