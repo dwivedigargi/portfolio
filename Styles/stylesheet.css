@@ -712,8 +712,28 @@ tr.collapse {
 	}
 
 	.sidebar {
-		width: 70rem;
-		right: -70rem;
+		width: 90rem;
+		right: -90rem;
 		line-height: 8rem;
+	}
+
+	.menu-link {
+		font-size: 7rem;
+		line-height: 20rem;
+	}
+
+	.social-media i {
+		font-size: 7rem;
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.hamburger-menu {
+		width: 8rem;
+		height: 8rem;
+	}
+
+	.line {
+	height: 1rem;
 	}
 }
