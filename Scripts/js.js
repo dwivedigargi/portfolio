@@ -10,7 +10,7 @@ function showtable() {
 	ele.toggle("showtab")
 }
 
-setInterval(func, 100)
+setInterval(func, 1000)
 function func()
 {var dt = new Date();
 document.getElementById("datetime").innerHTML = dt.toLocaleString();}
